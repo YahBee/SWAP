@@ -1,0 +1,39 @@
+Ejercicio T2.2
+
+
+Otra alternativa a PM2 puede ser StrongLoop Process Manager, también para Node.js.
+Este framework tiene herramientas de serie para monitorizar y balancear los diferentes host que pueda tener nuestro cluster, todo ello con la opción de usar una consola gráfica.
+
+
+
+Ejercico T2.3
+
+Podemos usar la shell para analizar en tiempo real el nivel de carga actual de los subsistemas, usando el comando “sar”.
+Aún así también hay aplicaciones disponibles que nos aportan una interfaz para ver con mas facilidad estos datos. Una de ella es scout (https://scoutapp.com/), que nos proporciona una interfaz gráfica para la visualización de los datos y además tiene extras como notificaciones en diferentes medios(email, SMS, etc) para límites de diferentes recursos que previamente hemos designado. Todo esto viene además con la implementación de bastantes plugins open-source para servicios muy comunes como MySQL o Nginx y con la posibilidad de crear los tuyos propios.
+
+
+
+Ejercicio T2.4
+
+Ejemplos de balanceadores software y hardware:
+
+Kemp https://kemptechnologies.com/
+
+BigIP(f5) https://f5.com/products/big-ip
+
+Cisco(cualquier router cuenta con balanceador de carga) http://www.cisco.com/c/en/us/products/routers/product-listing.html
+
+Citrix https://www.citrix.es/downloads/
+
+
+Ejemplos de productos comerciales para servidores de aplicaciones:
+
+.NET https://www.microsoft.com/net
+
+Appserver.io http://appserver.io/
+
+Ejemplo de productos comerciales para servidores de almacenamiento
+
+Digital Ocean https://www.digitalocean.com/
+
+IBM https://www.ibm.com/cloud-computing/bluemix/es
